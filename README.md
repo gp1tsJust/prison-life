@@ -209,7 +209,7 @@ local function KLFF_fake_script() -- walkspeed.Script
 
 	function Click(mouse)
 	
-		---credits to https://www.youtube.com/channel/UCxNvCRWwg44MlvOlmDPo9SQ (crispy riley)
+		
 	
 		local ScreenGui = Instance.new("ScreenGui")
 		local main = Instance.new("Frame")
@@ -368,9 +368,9 @@ local function FLOJOF_fake_script() -- BTools.Script
 
 	function Click(mouse)
 	
-		-- Made by ILoveCats9030
-		-- Version: 1.3
-		-- Instances:
+		
+		
+		
 	
 		local ScreenGui = Instance.new("ScreenGui")
 		local main = Instance.new("Frame")
