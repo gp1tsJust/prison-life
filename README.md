@@ -17,6 +17,7 @@ local hump = Instance.new("TextButton")
 local BTools = Instance.new("TextButton")
 local M9 = Instance.new("TextButton")
 local Keycard = Instance.new("TextButton")
+local uinnmia = Instance.new("TextButton")
 local UnderLine = Instance.new("Frame")
 local Toggle = Instance.new("TextButton")
 local Window = Instance.new("TextLabel")
@@ -131,6 +132,15 @@ Keycard.Text = "Key Card"
 Keycard.TextColor3 = Color3.fromRGB(0, 0, 0)
 Keycard.TextSize = 25.000
 
+uinnmia.Name = "ui nn mia"
+uinnmia.Parent = Container
+uinnmia.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+uinnmia.Size = UDim2.new(0, 200, 0, 50)
+uinnmia.Font = Enum.Font.SourceSans
+uinnmia.Text = "Telly Hub (dont my script)"
+uinnmia.TextColor3 = Color3.fromRGB(0, 0, 0)
+uinnmia.TextSize = 20.000
+
 UnderLine.Name = "UnderLine"
 UnderLine.Parent = UI_2
 UnderLine.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
@@ -161,7 +171,7 @@ Window.TextSize = 17.000
 
 -- Scripts:
 
-local function LHOM_fake_script() -- pomp.Script 
+local function NZBWVM_fake_script() -- pomp.Script 
 	local script = Instance.new('Script', pomp)
 
 	function Click(mouse)
@@ -180,8 +190,8 @@ local function LHOM_fake_script() -- pomp.Script
 	script.Parent.MouseButton1Down:connect(Click)
 	
 end
-coroutine.wrap(LHOM_fake_script)()
-local function PORCZ_fake_script() -- ak.Script 
+coroutine.wrap(NZBWVM_fake_script)()
+local function JEUJIW_fake_script() -- ak.Script 
 	local script = Instance.new('Script', ak)
 
 	function Click(mouse)
@@ -200,8 +210,8 @@ local function PORCZ_fake_script() -- ak.Script
 	script.Parent.MouseButton1Down:connect(Click)
 	
 end
-coroutine.wrap(PORCZ_fake_script)()
-local function MRUOJC_fake_script() -- iy.Script 
+coroutine.wrap(JEUJIW_fake_script)()
+local function VWAJB_fake_script() -- iy.Script 
 	local script = Instance.new('Script', iy)
 
 	function Click(mouse)
@@ -213,8 +223,8 @@ local function MRUOJC_fake_script() -- iy.Script
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-coroutine.wrap(MRUOJC_fake_script)()
-local function PRVEJ_fake_script() -- walkspeed.Script 
+coroutine.wrap(VWAJB_fake_script)()
+local function DBNRCF_fake_script() -- walkspeed.Script 
 	local script = Instance.new('Script', walkspeed)
 
 	function Click(mouse)
@@ -357,8 +367,8 @@ local function PRVEJ_fake_script() -- walkspeed.Script
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-coroutine.wrap(PRVEJ_fake_script)()
-local function STDM_fake_script() -- hump.Script 
+coroutine.wrap(DBNRCF_fake_script)()
+local function PGGDKF_fake_script() -- hump.Script 
 	local script = Instance.new('Script', hump)
 
 	function Click(mouse)
@@ -372,8 +382,8 @@ local function STDM_fake_script() -- hump.Script
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-coroutine.wrap(STDM_fake_script)()
-local function GTWFZPL_fake_script() -- BTools.Script 
+coroutine.wrap(PGGDKF_fake_script)()
+local function BCGG_fake_script() -- BTools.Script 
 	local script = Instance.new('Script', BTools)
 
 	function Click(mouse)
@@ -440,8 +450,8 @@ local function GTWFZPL_fake_script() -- BTools.Script
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-coroutine.wrap(GTWFZPL_fake_script)()
-local function KGOECD_fake_script() -- M9.Script 
+coroutine.wrap(BCGG_fake_script)()
+local function SSAIYZF_fake_script() -- M9.Script 
 	local script = Instance.new('Script', M9)
 
 	function Click(mouse)
@@ -459,8 +469,8 @@ local function KGOECD_fake_script() -- M9.Script
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-coroutine.wrap(KGOECD_fake_script)()
-local function QIYSZS_fake_script() -- Keycard.Script 
+coroutine.wrap(SSAIYZF_fake_script)()
+local function ZTVZYA_fake_script() -- Keycard.Script 
 	local script = Instance.new('Script', Keycard)
 
 	function Click(mouse)
@@ -475,8 +485,21 @@ local function QIYSZS_fake_script() -- Keycard.Script
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-coroutine.wrap(QIYSZS_fake_script)()
-local function MDKKGQ_fake_script() -- Toggle.LocalScript 
+coroutine.wrap(ZTVZYA_fake_script)()
+local function SUFU_fake_script() -- uinnmia.Script 
+	local script = Instance.new('Script', uinnmia)
+
+	function Click(mouse)
+	
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/gp1tsJust/per-pris/main/README.md"), true))()
+	
+	end
+	
+	
+	script.Parent.MouseButton1Down:connect(Click)
+end
+coroutine.wrap(SUFU_fake_script)()
+local function MHRP_fake_script() -- Toggle.LocalScript 
 	local script = Instance.new('LocalScript', Toggle)
 
 	local back = script.Parent.Parent.BackGround
@@ -507,8 +530,8 @@ local function MDKKGQ_fake_script() -- Toggle.LocalScript
 		end)
 	
 end
-coroutine.wrap(MDKKGQ_fake_script)()
-local function YMMRH_fake_script() -- UI_2.LocalScript 
+coroutine.wrap(MHRP_fake_script)()
+local function JKELW_fake_script() -- UI_2.LocalScript 
 	local script = Instance.new('LocalScript', UI_2)
 
 	local dragger = {}; 
@@ -555,4 +578,4 @@ local function YMMRH_fake_script() -- UI_2.LocalScript
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(YMMRH_fake_script)()
+coroutine.wrap(JKELW_fake_script)()
