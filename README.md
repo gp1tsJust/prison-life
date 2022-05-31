@@ -16,6 +16,7 @@ local walkspeed = Instance.new("TextButton")
 local hump = Instance.new("TextButton")
 local BTools = Instance.new("TextButton")
 local M9 = Instance.new("TextButton")
+local Keycard = Instance.new("TextButton")
 local UnderLine = Instance.new("Frame")
 local Toggle = Instance.new("TextButton")
 local Window = Instance.new("TextLabel")
@@ -121,6 +122,15 @@ M9.Text = "M9"
 M9.TextColor3 = Color3.fromRGB(0, 0, 0)
 M9.TextSize = 25.000
 
+Keycard.Name = "Key card"
+Keycard.Parent = Container
+Keycard.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Keycard.Size = UDim2.new(0, 200, 0, 50)
+Keycard.Font = Enum.Font.SourceSans
+Keycard.Text = "Key Card"
+Keycard.TextColor3 = Color3.fromRGB(0, 0, 0)
+Keycard.TextSize = 25.000
+
 UnderLine.Name = "UnderLine"
 UnderLine.Parent = UI_2
 UnderLine.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
@@ -151,7 +161,7 @@ Window.TextSize = 17.000
 
 -- Scripts:
 
-local function BHHSUE_fake_script() -- pomp.Script 
+local function LHOM_fake_script() -- pomp.Script 
 	local script = Instance.new('Script', pomp)
 
 	function Click(mouse)
@@ -170,8 +180,8 @@ local function BHHSUE_fake_script() -- pomp.Script
 	script.Parent.MouseButton1Down:connect(Click)
 	
 end
-coroutine.wrap(BHHSUE_fake_script)()
-local function URUDB_fake_script() -- ak.Script 
+coroutine.wrap(LHOM_fake_script)()
+local function PORCZ_fake_script() -- ak.Script 
 	local script = Instance.new('Script', ak)
 
 	function Click(mouse)
@@ -190,8 +200,8 @@ local function URUDB_fake_script() -- ak.Script
 	script.Parent.MouseButton1Down:connect(Click)
 	
 end
-coroutine.wrap(URUDB_fake_script)()
-local function VJRSE_fake_script() -- iy.Script 
+coroutine.wrap(PORCZ_fake_script)()
+local function MRUOJC_fake_script() -- iy.Script 
 	local script = Instance.new('Script', iy)
 
 	function Click(mouse)
@@ -203,13 +213,13 @@ local function VJRSE_fake_script() -- iy.Script
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-coroutine.wrap(VJRSE_fake_script)()
-local function KLFF_fake_script() -- walkspeed.Script 
+coroutine.wrap(MRUOJC_fake_script)()
+local function PRVEJ_fake_script() -- walkspeed.Script 
 	local script = Instance.new('Script', walkspeed)
 
 	function Click(mouse)
 	
-		
+		---credits to https://www.youtube.com/channel/UCxNvCRWwg44MlvOlmDPo9SQ (crispy riley)
 	
 		local ScreenGui = Instance.new("ScreenGui")
 		local main = Instance.new("Frame")
@@ -347,8 +357,8 @@ local function KLFF_fake_script() -- walkspeed.Script
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-coroutine.wrap(KLFF_fake_script)()
-local function MCHRUA_fake_script() -- hump.Script 
+coroutine.wrap(PRVEJ_fake_script)()
+local function STDM_fake_script() -- hump.Script 
 	local script = Instance.new('Script', hump)
 
 	function Click(mouse)
@@ -362,15 +372,15 @@ local function MCHRUA_fake_script() -- hump.Script
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-coroutine.wrap(MCHRUA_fake_script)()
-local function FLOJOF_fake_script() -- BTools.Script 
+coroutine.wrap(STDM_fake_script)()
+local function GTWFZPL_fake_script() -- BTools.Script 
 	local script = Instance.new('Script', BTools)
 
 	function Click(mouse)
 	
-		
-		
-		
+		-- Made by ILoveCats9030
+		-- Version: 1.3
+		-- Instances:
 	
 		local ScreenGui = Instance.new("ScreenGui")
 		local main = Instance.new("Frame")
@@ -430,8 +440,8 @@ local function FLOJOF_fake_script() -- BTools.Script
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-coroutine.wrap(FLOJOF_fake_script)()
-local function DPKQJ_fake_script() -- M9.Script 
+coroutine.wrap(GTWFZPL_fake_script)()
+local function KGOECD_fake_script() -- M9.Script 
 	local script = Instance.new('Script', M9)
 
 	function Click(mouse)
@@ -449,8 +459,24 @@ local function DPKQJ_fake_script() -- M9.Script
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-coroutine.wrap(DPKQJ_fake_script)()
-local function YECPEMM_fake_script() -- Toggle.LocalScript 
+coroutine.wrap(KGOECD_fake_script)()
+local function QIYSZS_fake_script() -- Keycard.Script 
+	local script = Instance.new('Script', Keycard)
+
+	function Click(mouse)
+	
+		local A_1 = game:GetService("Workspace")["Prison_ITEMS"].single["Key card"].ITEMPICKUP
+		local Event = game:GetService("Workspace").Remote.ItemHandler
+		Event:InvokeServer(A_1)
+	
+	
+	end
+	
+	
+	script.Parent.MouseButton1Down:connect(Click)
+end
+coroutine.wrap(QIYSZS_fake_script)()
+local function MDKKGQ_fake_script() -- Toggle.LocalScript 
 	local script = Instance.new('LocalScript', Toggle)
 
 	local back = script.Parent.Parent.BackGround
@@ -481,8 +507,8 @@ local function YECPEMM_fake_script() -- Toggle.LocalScript
 		end)
 	
 end
-coroutine.wrap(YECPEMM_fake_script)()
-local function BBPJJ_fake_script() -- UI_2.LocalScript 
+coroutine.wrap(MDKKGQ_fake_script)()
+local function YMMRH_fake_script() -- UI_2.LocalScript 
 	local script = Instance.new('LocalScript', UI_2)
 
 	local dragger = {}; 
@@ -529,4 +555,4 @@ local function BBPJJ_fake_script() -- UI_2.LocalScript
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(BBPJJ_fake_script)()
+coroutine.wrap(YMMRH_fake_script)()
